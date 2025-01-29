@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Telephone Directory</h1>
+
+        <form id="contactForm">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Enter Name" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="phone" placeholder="Enter Phone Number" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Enter Email (Optional)">
+            </div>
+            <div class="button-group">
+                <button type="submit" class="submit-btn">Add Contact</button>
+                <button type="reset" class="reset-btn">Clear</button>
+            </div>
+        </form>
+
+        <h2>Contacts</h2>
+        <ul id="contactList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

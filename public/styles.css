@@ -1,0 +1,119 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.reset-btn {
+    background-color: #ccc;
+    color: #333;
+}
+
+.reset-btn:hover {
+    background-color: #999;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+li:hover {
+    background-color: #e9ecef;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    input, button {
+        font-size: 0.9rem;
+    }
+}
